@@ -1,5 +1,8 @@
-package com.pb
+package com.pb.two
 
+import com.pb.GroovyGreeter
+import com.pb.JavaGreeter
+import com.pb.KotlinGreeter
 import spock.lang.Specification
 
 class GreeterSpec extends Specification {
@@ -17,6 +20,10 @@ class GreeterSpec extends Specification {
 
     }
 
+
+
+
+
     def "Kotlin greeter works!"() {
 
         given: "an instance of JavaClass"
@@ -28,6 +35,9 @@ class GreeterSpec extends Specification {
         testedClass.greet() == "Hello from Kotlin"
 
     }
+
+
+
 
     def "Groovy greeter works!"() {
 
