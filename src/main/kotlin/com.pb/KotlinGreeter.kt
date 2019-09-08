@@ -1,3 +1,5 @@
+package com.pb
+
 class KotlinGreeter {
 
     fun greet() : String {
