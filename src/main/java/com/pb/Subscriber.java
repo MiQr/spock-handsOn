@@ -1,5 +1,5 @@
 package com.pb;
 
-interface Subscriber {
+public interface Subscriber {
     void receive(String message);
 }
