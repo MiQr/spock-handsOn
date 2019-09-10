@@ -2,7 +2,7 @@ package com.pb;
 
 import org.junit.Test;
 
-public class GreeterTest {
+public class JunitTest {
 
     @Test
     public void testingIfBothFrameworksCanExistInTheSameCodebase(){
