@@ -14,7 +14,7 @@ class GreeterSpec extends Specification {
 
         def testedClass = new JavaGreeter()
 
-        expect: "greeter returns what's expected"
+        expect: "greeter returns Java response"
 
         testedClass.greet() == "Hello from Java"
 
@@ -26,11 +26,11 @@ class GreeterSpec extends Specification {
 
     def "Kotlin greeter works!"() {
 
-        given: "an instance of JavaClass"
+        given: "an instance of Kotlin class"
 
         def testedClass = new KotlinGreeter()
 
-        expect: "greeter returns what's expected"
+        expect: "greeter returns Kotlin response"
 
         testedClass.greet() == "Hello from Kotlin"
 
@@ -41,11 +41,11 @@ class GreeterSpec extends Specification {
 
     def "Groovy greeter works!"() {
 
-        given: "an instance of JavaClass"
+        given: "an instance of Groovy Class"
 
         def testedClass = new GroovyGreeter()
 
-        expect: "greeter returns what's expected"
+        expect: "greeter returns Groovy response"
 
         testedClass.greet() == "Hello from Groovy"
 

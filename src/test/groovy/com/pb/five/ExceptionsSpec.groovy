@@ -17,7 +17,7 @@ class ExceptionsSpec extends Specification {
         then: "the exception is thrown"
         thrown(WorkException)
     }
-    //todo:
-    // And check the message is "oops!"
-
+    //TODO: assign the object
+    //TODO: check over the message
+    //NOTE: can catch only one exception
 }

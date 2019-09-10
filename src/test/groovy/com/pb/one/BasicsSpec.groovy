@@ -8,7 +8,8 @@ class BasicsSpec extends Specification {
     public void oldStyleTestMadeInJUnitOrSomethingElseWhichIsNotEasyToRead() {
         assert 1 == 1
     }
-    //TODO: expect, remove assert
+    // TODO: expect,
+    // remove assert
 
 
     def "I'm the simplest test possible in spock!"() {
@@ -53,7 +54,7 @@ class BasicsSpec extends Specification {
         when: "I set the string value"
         someInstance.setStringValue("BB4IT")
 
-        then: "Its changed properly"
+        then: "It is changed properly"
         someInstance.getStringValue() == "BB4IT"
     }
 }

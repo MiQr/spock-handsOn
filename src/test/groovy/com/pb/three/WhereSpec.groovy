@@ -16,6 +16,15 @@ class WhereSpec extends Specification {
         calc.add(1, 2) == 3
     }
 
+    //TODO: parametrize
+    //TODO: add new values
+    //TODO: add unroll
+    //TODO: modify the parameters
+
+
+
+
+
 
     def "Calculator adds values correctly and returns proper result" () {
 

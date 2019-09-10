@@ -26,4 +26,6 @@ class WhereFromFileSpec extends Specification {
         [a, b, result] << CsvParser.parseCsv(inputFile.text)
 
     }
+
+    //TODO: what if file changes?
 }
